@@ -1,0 +1,37 @@
+<template>
+  <require from="./styles.css"></require>
+
+  <div class="container" onload="verifyTodo()">
+    <h1>${heading}</h1>
+
+    <div class="todo-content">
+      <form submit.trigger="addTodo()">
+        <div class="row">
+          <input
+            type="text"
+            id="input-todo"
+            value.bind="todoDescription"
+            autofocus
+          />
+          <button type="submit" disabled.bind="!todoDescription">
+            Add Todo
+          </button>
+        </div>
+      </form>
+
+      <div class="todos">
+        <div class="todo" repeat.for="todo of todos">
+          <button
+            click.trigger="updateTodo(todo)"
+            class="${todo.done ? 'todo-description active' : 'todo-description'}"
+          >
+            <span css="text-decoration: ${todo.done ? 'line-through' : 'none'}">
+              ${todo.description}
+            </span>
+          </button>
+          <button click.trigger="removeTodo(todo)">Remove</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
