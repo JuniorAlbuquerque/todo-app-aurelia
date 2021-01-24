@@ -4,7 +4,7 @@ Uma aplicação simples de lista de tarefas utilizando o Aurelia Framework, com 
 
 ![TodoApp](images/todo-app.png 'TodoApp')
 
-> Projeto desenvolvido com o [aurelia-cli](https://github.com/aurelia/cli), para mais informações sobreo aurelia: https://aurelia.io/docs/cli/webpack
+> Projeto desenvolvido com o [aurelia-cli](https://github.com/aurelia/cli), para mais informações sobre o aurelia: https://aurelia.io/docs/cli/webpack
 
 ## Instalando o Aurelia-cli
 
