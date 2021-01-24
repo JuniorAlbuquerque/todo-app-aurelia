@@ -1,33 +1,21 @@
-# `todo-app-aurelia`
+# `📝 Todo App Aurelia`
 
-This project is bootstrapped by [aurelia-cli](https://github.com/aurelia/cli).
+Uma aplicação simples de lista de tarefas utilizando o Aurelia Framework, com permanência de dados no LocalS
 
-For more information, go to https://aurelia.io/docs/cli/webpack
+![TodoApp](images/todo-app.png 'TodoApp')
 
-## Run dev app
+> Projeto desenvolvido com o [aurelia-cli](https://github.com/aurelia/cli), para mais informações sobreo aurelia: https://aurelia.io/docs/cli/webpack
 
-Run `npm start`, then open `http://localhost:8080`
+## Instalando o Aurelia-cli
 
-You can change the standard webpack configurations from CLI easily with something like this: `npm start -- --open --port 8888`. However, it is better to change the respective npm scripts or `webpack.config.js` with these options, as per your need.
+- 1° passo: instalar o node na sua máquina
+- 2° passo: rodar o comando `yarn global add aurelia-cli` ou `npm i -g aurelia-cli`
 
-To enable Webpack Bundle Analyzer, do `npm run analyze` (production build).
+## Run app
 
-To enable hot module reload, do `npm start -- --hmr`.
-
-To change dev server port, do `npm start -- --port 8888`.
-
-To change dev server host, do `npm start -- --host 127.0.0.1`
-
-**PS:** You could mix all the flags as well, `npm start -- --host 127.0.0.1 --port 7070 --open --hmr`
-
-For long time aurelia-cli user, you can still use `au run` with those arguments like `au run --env prod --open --hmr`. But `au run` now simply executes `npm start` command.
-
-## Build for production
-
-Run `npm run build`, or the old way `au build --env prod`.
-
-## Unit tests
-
-Run `au test` (or `au jest`).
-
-To run in watch mode, `au test --watch` or `au jest --watch`.
+- Para utilizar o app, basta clonar o projeto: https://github.com/JuniorAlbuquerque/todo-app-aurelia.git
+- Instalar as dependências, com
+  `yarn instal` ou `npm install`
+- Utilizar o cli para start a aplicação, com `au run --watch`
+- Ou utilizar o `npm start`
+- A aplicação fica acessível por meio da url: `http://localhost:8080`
