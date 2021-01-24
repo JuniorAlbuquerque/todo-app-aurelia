@@ -2,7 +2,7 @@
 
 Uma aplicação simples de lista de tarefas utilizando o Aurelia Framework, com permanência de dados no LocalS
 
-![TodoApp](images/todo-app.png 'TodoApp')
+![TodoApp](images/todoapp.gif 'TodoApp')
 
 > Projeto desenvolvido com o [aurelia-cli](https://github.com/aurelia/cli), para mais informações sobre o aurelia: https://aurelia.io/docs/cli/webpack
 
